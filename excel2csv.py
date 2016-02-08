@@ -34,21 +34,28 @@ def spreadsheetml_to_list(xml_path, rows_xpath, xml_namespaces):
     xml = etree.parse(xml_path)
 
     rows = xml.getroot().xpath(rows_xpath, namespaces=xml_namespaces)
-    data = []
+    results = []
     for row in rows:
         values = []
         for cell in row.iterchildren('{*}Cell'):
-            values.append(element_text(cell.find('{*}Data')))
-        if values: data.append(values)
+            data = cell.find('{*}Data')
+            if data is not None:
+                values.append(element_text(data))
+        if values:
+            results.append(values)
 
-    return data
+    return results
 
 
 def list_to_csv(lst, csv_path, drop_columns=None, encoding='utf-8', dialect=csv.unix_dialect):
+    assert lst
     drop_cols = drop_columns if drop_columns else []
     with open(csv_path, 'w', encoding=encoding) as f:
         writer = csv.writer(f, dialect=dialect)
         for x in lst:
+            curr_row = list(x)
+            # This list should contain a table, so ensure all rows have the same size
+            assert len(curr_row) == len(lst[0]), "Expected same length, got {} vs. {}".format(lst[0], x)
             for i in sorted(drop_cols, reverse=True):
-                x.pop(i)
-            writer.writerow(x)
+                curr_row.pop(i)
+            writer.writerow(curr_row)
