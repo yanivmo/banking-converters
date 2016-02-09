@@ -19,7 +19,7 @@ def html_table_to_list(html_path, table_xpath):
         for th in thead_tr[0].iterchildren('th'):
             header.append(element_text(th))
 
-    tbody_tr = table.xpath('tbody/tr')
+    tbody_tr = tables[0].xpath('tbody/tr')
     rows = []
     for tr in tbody_tr:
         row = []
