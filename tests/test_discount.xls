@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook
+  xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+    <Colors>
+      <Color>
+        <Index>3</Index>
+        <RGB>#000000</RGB>
+      </Color>
+      <Color>
+        <Index>4</Index>
+        <RGB>#c0c0c0</RGB>
+      </Color>
+      <Color>
+        <Index>5</Index>
+        <RGB>#eaf7e9</RGB>
+      </Color>
+      <Color>
+        <Index>6</Index>
+        <RGB>#ff0000</RGB>
+      </Color>
+      <Color>
+        <Index>7</Index>
+        <RGB>#ffffff</RGB>
+      </Color>
+    </Colors>
+  </OfficeDocumentSettings>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>9000</WindowHeight>
+    <WindowWidth>13860</WindowWidth>
+    <WindowTopX>240</WindowTopX>
+    <WindowTopY>75</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles><Style ss:ID="Default" ss:Name="Default"/>
+    <Style ss:ID="Result" ss:Name="Result"><Font ss:Bold="1" ss:FontName="Arial" ss:Italic="1" ss:Size="10" ss:Underline="Single"/></Style>
+    <Style ss:ID="Result2" ss:Name="Result2"><Font ss:Bold="1" ss:FontName="Arial" ss:Italic="1" ss:Size="10" ss:Underline="Single"/><NumberFormat ss:Format="Currency"/></Style>
+    <Style ss:ID="Heading" ss:Name="Heading"><Font ss:Bold="1" ss:FontName="Arial" ss:Italic="1" ss:Size="16"/></Style>
+    <Style ss:ID="Heading1" ss:Name="Heading1"><Font ss:Bold="1" ss:FontName="Arial" ss:Italic="1" ss:Size="16"/></Style>
+    <Style ss:ID="Normal" ss:Name="Normal"><Font ss:Color="#000000" ss:FontName="Arial" ss:Size="11"/><NumberFormat ss:Format="Fixed"/></Style><Style ss:ID="co1"/>
+    <Style ss:ID="co2"/><Style ss:ID="ta1"/><Style ss:ID="ce1" ss:Parent="Normal"><Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="15"/>
+  </Style>
+  <Style ss:ID="ce2" ss:Parent="Normal"><Alignment ss:Horizontal="Right"/><Font ss:Color="#000000" ss:FontName="Arial" ss:Size="12"/></Style>
+  <Style ss:ID="ce3" ss:Parent="Normal"><Font ss:Color="#000000" ss:FontName="Arial" ss:Size="12"/></Style>
+  <Style ss:ID="ce4">
+    <Font ss:Bold="1" ss:Color="#000000" ss:FontName="Arial" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="ce5">
+    <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/><Font ss:Bold="1" ss:FontName="Arial" ss:Size="10"/><Interior ss:Color="#c0c0c0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="ce6">
+    <Interior ss:Color="#ffffff" ss:Pattern="Solid"/><NumberFormat ss:Format="Short Time"/>
+  </Style>
+  <Style ss:ID="ce7">
+    <Interior ss:Color="#eaf7e9" ss:Pattern="Solid"/><NumberFormat ss:Format="Short Time"/>
+  </Style>
+  <Style ss:ID="ce8">
+    <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/><Font ss:Bold="1" ss:FontName="Arial" ss:Size="10"/>
+  </Style>
+  <Style ss:ID="ce9">
+    <Interior ss:Color="#ffffff" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="ce10">
+    <Interior ss:Color="#eaf7e9" ss:Pattern="Solid"/>
+  </Style>
+</Styles>
+<ss:Worksheet ss:Name="retailHomePage">
+  <Table ss:StyleID="ta1"><Column ss:Width="315.5527"/><Column ss:Span="9" ss:Width="64.0063"/>
+    <Row ss:AutoFitHeight="0" ss:Height="18.5386">
+      <Cell ss:StyleID="ce1">
+        <Data ss:Type="String">מצב חשבון</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559"><Cell ss:StyleID="Default"/><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="15.3921">
+      <Cell ss:StyleID="ce2">
+        <Data ss:Type="String">חשבון נוכחי: 12345678 | חשבון קודם: 123-000-00-123456</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.8126"><Cell ss:StyleID="Default"/><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce3">
+        <Data ss:Type="String">יתרת עו"ש</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 11,605.51</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="7" ss:StyleID="ce3">
+        <Data ss:Type="String">פקדונות וחסכונות</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 0.00</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="15.3921">
+      <Cell ss:StyleID="ce3">
+        <Data ss:Type="String">מסגרת אשראי</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 0.00</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="7" ss:StyleID="ce3">
+        <Data ss:Type="String">תיק השקעות בני"ע</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 0.00</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="3" ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="5" ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="7" ss:StyleID="ce3">
+        <Data ss:Type="String">הלוואות</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 0.00</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:Index="8" ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce3">
+        <Data ss:Type="String">חיוב בכרטיס אשראי</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 712.39</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="7" ss:StyleID="ce3">
+        <Data ss:Type="String">עו"ש מט"ח</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce3">
+        <Data ss:Type="String">₪ 0.00</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce3"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="3" ss:StyleID="ce3"><Data ss:Type="String"/></Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559"><Cell ss:StyleID="Default"/><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce4">
+        <Data ss:Type="String">תנועות עתידיות:</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce5">
+        <Data ss:Type="String">תאריך הפעולה</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce5">
+        <Data ss:Type="String">יום ערך</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce5">
+        <Data ss:Type="String">תיאור הפעולה</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce5">
+        <Data ss:Type="String">הערות</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce5">
+        <Data ss:Type="String">זכות / חובה</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce5">
+        <Data ss:Type="String">יתרה משוערת</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce6">
+        <Data ss:Type="String">05/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce6">
+        <Data ss:Type="String">02/02/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce9">
+        <Data ss:Type="String">חיוב לכרטיס ויזה</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce9"><Data ss:Type="String"/></Cell>
+      <Cell ss:Index="9" ss:StyleID="ce9">
+        <Data ss:Type="String">-710.39</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce9">
+        <Data ss:Type="String">10496.54</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559"><Cell ss:StyleID="Default"/><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce4">
+        <Data ss:Type="String">תנועות אחרונות:</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce5">
+        <Data ss:Type="String">תאריך הפעולה</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce5">
+        <Data ss:Type="String">יום ערך</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce5">
+        <Data ss:Type="String">תיאור הפעולה</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce5">
+        <Data ss:Type="String">אסמכתה</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce5">
+        <Data ss:Type="String">זכות / חובה</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce5">
+        <Data ss:Type="String">יתרה משוערת</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce6">
+        <Data ss:Type="String">01/02/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce6">
+        <Data ss:Type="String">01/02/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce9">
+        <Data ss:Type="String">משיכת שיק</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce9">
+        <Data ss:Type="String">1790</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce9">
+        <Data ss:Type="String">-300.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce9">
+        <Data ss:Type="String">11205.51</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce7">
+        <Data ss:Type="String">31/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce7">
+        <Data ss:Type="String">01/02/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce10">
+        <Data ss:Type="String">משכורת</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce10">
+        <Data ss:Type="String">1789</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce10">
+        <Data ss:Type="String">988.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce10">
+        <Data ss:Type="String">11505.51</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce6">
+        <Data ss:Type="String">31/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce6">
+        <Data ss:Type="String">01/02/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce9">
+        <Data ss:Type="String">משכורת</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce9">
+        <Data ss:Type="String">1788</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce9">
+        <Data ss:Type="String">504.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce9"><Data ss:Type="String"/></Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce7">
+        <Data ss:Type="String">19/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce7">
+        <Data ss:Type="String">20/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce10">
+        <Data ss:Type="String">ביטוח לאומי</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce10">
+        <Data ss:Type="String">1787</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce10">
+        <Data ss:Type="String">30.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce10">
+        <Data ss:Type="String">10013.51</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce6">
+        <Data ss:Type="String">18/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce6">
+        <Data ss:Type="String">18/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce9">
+        <Data ss:Type="String">משיכת שיק</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce9">
+        <Data ss:Type="String">1786</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce9">
+        <Data ss:Type="String">-140.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce9">
+        <Data ss:Type="String">9983.51</Data>
+      </Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce7">
+        <Data ss:Type="String">07/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce7">
+        <Data ss:Type="String">07/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce10">
+        <Data ss:Type="String">העברה</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce10">
+        <Data ss:Type="String">1785</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce10">
+        <Data ss:Type="String">31.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce10">
+        <Data ss:Type="String">10123.51</Data>
+      </Cell>
+    </Row>
+    <Row ss:Index="23" ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce6">
+        <Data ss:Type="String">07/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="3" ss:StyleID="ce6">
+        <Data ss:Type="String">06/01/2016</Data>
+      </Cell>
+      <Cell ss:Index="5" ss:StyleID="ce9">
+        <Data ss:Type="String">חיוב לכרטיס ויזה</Data>
+      </Cell>
+      <Cell ss:Index="7" ss:StyleID="ce9">
+        <Data ss:Type="String">1784</Data>
+      </Cell>
+      <Cell ss:Index="9" ss:StyleID="ce9">
+        <Data ss:Type="String">-7.00</Data>
+      </Cell>
+      <Cell ss:Index="11" ss:StyleID="ce9"><Data ss:Type="String"/></Cell>
+    </Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559"><Cell ss:StyleID="Default"/><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">הודעה</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">היתרה המוצגת עשויה לא לכלול חלק מהתנועות המקוונות שבוצעו במהלך יום העסקים האחרון</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">בכל מקרה של סתירה בין הרשום לעיל ובין הרשום בספרי הבנק, הרישום בספרי הבנק הוא הקובע</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">בכרטיסי אשראי: סכום החיוב הקרוב אינו סופי, יתכן וישנן רכישות שטרם דווחו ע"י בתי העסק, בעסקאות במטבע זר שמועד חיובן עתידי, הסכום הסופי יקבע בהתאם לשערי המטבעות ביום החיוב . המידע באחריות CAL</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">נתוני המסחר לני"ע מוצגים בעיכוב</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+    <Row ss:AutoFitHeight="0" ss:Height="12.7559">
+      <Cell ss:StyleID="ce8">
+        <Data ss:Type="String">השווי הכספי של ניירות ערך הנקובים במט"ח מתורגם למונחי ₪ לפי שער העברות והמחאות נמוך של הבנק</Data>
+      </Cell><Cell ss:Index="11"/></Row>
+  </Table><x:WorksheetOptions/></ss:Worksheet>
+</Workbook>

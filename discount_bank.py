@@ -28,4 +28,4 @@ def discount_conversion(from_file, to_file):
 
 
 if __name__ == '__main__':
-    discount_conversion('osh2.xml', 'output.csv')
+    discount_conversion('tests/discount2.xls', 'output.csv')
