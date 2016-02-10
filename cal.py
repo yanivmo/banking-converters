@@ -1,3 +1,4 @@
+import argparse
 import excel2csv as exl
 
 
@@ -19,4 +20,10 @@ def cal_conversion(from_file, to_file):
 
 
 if __name__ == '__main__':
-    cal_conversion('yaniv.xlshtml', 'output.csv')
+    parser = argparse.ArgumentParser(description='Convert to CSV an XLS file downloaded from the website of '
+                                                 'Cal Israel Credit Cards')
+    parser.add_argument('xls_file', help='the input file')
+    parser.add_argument('csv_file', help='the output file containing the converted data')
+    args = parser.parse_args()
+
+    cal_conversion(args.xls_file, args.csv_file)

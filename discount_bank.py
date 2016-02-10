@@ -1,3 +1,4 @@
+import argparse
 import excel2csv as exl
 
 
@@ -28,4 +29,10 @@ def discount_conversion(from_file, to_file):
 
 
 if __name__ == '__main__':
-    discount_conversion('tests/discount2.xls', 'output.csv')
+    parser = argparse.ArgumentParser(description='Convert to CSV an XLS file downloaded from the website of '
+                                                 'Israel Discount Bank')
+    parser.add_argument('xls_file', help='the input file')
+    parser.add_argument('csv_file', help='the output file containing the converted data')
+    args = parser.parse_args()
+
+    discount_conversion(args.xls_file, args.csv_file)
