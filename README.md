@@ -2,6 +2,9 @@
 Scripts to manipulate data exported form banks, credit card companies and other financial organizations.
 
 ## Usage
+Install the requirements in a virtualenv using the supplied requirements.txt
+
+Invoke the conversions:
 ```
 python discount_bank.py [-h] xls_file csv_file
 python cal.py [-h] xls_file csv_file
